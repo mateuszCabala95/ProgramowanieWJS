@@ -1,0 +1,25 @@
+.form{
+    flex-direction: column;
+    margin: 25px;
+}
+
+.form input {
+    padding: 5px;
+    margin: 10px;
+}
+
+.result-container{
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
