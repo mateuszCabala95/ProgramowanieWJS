@@ -1,0 +1,28 @@
+.sounds {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sounds__sound {
+    margin: 25px;
+    padding: 25px;
+    border: 2px aquamarine solid;
+}
+
+.channels {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.channels__channel {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.channels__channel button {
+    margin: 10px;
+}

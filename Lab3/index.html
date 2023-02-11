@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+  <div id="sounds" class="sounds">
+      <div class="sounds__sound">A <span class="sounds__sound-name">boom</span></div>
+      <div class="sounds__sound">S <span class="sounds__sound-name">clap</span></div>
+      <div class="sounds__sound">D <span class="sounds__sound-name">hihat</span></div>
+      <div class="sounds__sound">F <span class="sounds__sound-name">kick</span></div>
+      <div class="sounds__sound">G <span class="sounds__sound-name">openhat</span></div>
+      <div class="sounds__sound">H <span class="sounds__sound-name">ride</span></div>
+      <div class="sounds__sound">J <span class="sounds__sound-name">snare</span></div>
+      <div class="sounds__sound">K <span class="sounds__sound-name">tink</span></div>
+      <div class="sounds__sound">L <span class="sounds__sound-name">tom</span></div>
+  </div>
+
+  <div class="channels">
+      <div id="channel-1" class="channels__channel">Channel 1
+          <button data-role="start-record">record start</button>
+          <button data-role="stop-record">record stop</button>
+          <button data-role="play-record">play</button>
+          <button data-role="clear-record">clear</button>
+      </div>
+
+      <div id="channel-2" class="channels__channel">Channel 2
+          <button data-role="start-record">record start</button>
+          <button data-role="stop-record">record stop</button>
+          <button data-role="play-record">play</button>
+          <button data-role="clear-record">clear</button>
+      </div>
+
+      <div id="channel-3" class="channels__channel">Channel 3
+          <button data-role="start-record">record start</button>
+          <button data-role="stop-record">record stop</button>
+          <button data-role="play-record">play</button>
+          <button data-role="clear-record">clear</button>
+      </div>
+
+      <div id="channel-4" class="channels__channel">Channel 4
+          <button data-role="start-record">record start</button>
+          <button data-role="stop-record">record stop</button>
+          <button data-role="play-record">play</button>
+          <button data-role="clear-record">clear</button>
+      </div>
+  </div>
+
+  <audio data-key="a" src="./assets/sounds/boom.wav"></audio>
+  <audio data-key="s" src="./assets/sounds/clap.wav"></audio>
+  <audio data-key="d" src="./assets/sounds/hihat.wav"></audio>
+  <audio data-key="f" src="./assets/sounds/kick.wav"></audio>
+  <audio data-key="g" src="./assets/sounds/openhat.wav"></audio>
+  <audio data-key="h" src="./assets/sounds/ride.wav"></audio>
+  <audio data-key="j" src="./assets/sounds/snare.wav"></audio>
+  <audio data-key="k" src="./assets/sounds/tink.wav"></audio>
+  <audio data-key="l" src="./assets/sounds/tom.wav"></audio>
+  </body>
+</html>
