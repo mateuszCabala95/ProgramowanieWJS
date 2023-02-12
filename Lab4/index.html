@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>notekeeper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="add-note">
+      <form id="form">
+
+        <label for="title">Tytuł</label>
+        <input id="title" type="text" required>
+
+        <label for="content">Treść</label>
+        <textarea name="content" id="content" cols="30" rows="10" required></textarea>
+
+        <label for="color">Kolor: </label>
+        <select name="color" id="color">
+          <option value="red">Czerwony</option>
+          <option value="lightblue">Niebieski</option>
+          <option value="yellow">Zółty</option>
+          <option value="green">Zielony</option>
+        </select>
+
+        <span>Pin:</span>
+        <label for="pin" class="switch">
+          <input id="pin" type="checkbox">
+          <span class="slider"></span>
+        </label>
+
+        <button type="submit">Submit</button>
+
+
+      </form>
+    </section>
+
+    <section class="notes">
+      <ul id="notes-list" class="notes__list">
+      </ul>
+    </section>
+  </body>
+</html>
