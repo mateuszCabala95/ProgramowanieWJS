@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="flex-wrapper">
+            <label>
+                <input id="search-bar" type="search" placeholder="Wyszukaj miasto">
+                <button id="search-btn"> Szukaj</button>
+            </label>
+            <div id="weather-container"></div>
+        </div>
+
+        <section class="forecast">
+            <span class="forecast__city"></span>
+            <div class="forecast__container">
+                <span>Temperatura: <span id="temp"></span></span>
+                <span>Temperatur odczuwalna: <span id="feels_like"></span></span>
+                <span>Temperatura minimalna: <span id="temp_min"></span></span>
+                <span>Temperatura maksymanla: <span id="temp_max"></span></span>
+                <span>Ciśnienie: <span id="pressure"></span>  hPa</span>
+                <span>Wilgotność: <span id="humidity"></span> %</span>
+            </div>
+        </section>
+    </body>
+</html>
